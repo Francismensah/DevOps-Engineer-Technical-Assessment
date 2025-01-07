@@ -144,5 +144,5 @@ This design outlines a secure CI/CD architecture for deploying 20 microservices 
 ## Conclusion
 This architecture provides a scalable, secure, and automated CI/CD solution for deploying 20 microservices in a Kubernetes environment using GitOps principles.
 
-![Architecture Diagram](/docs/architecture/10%20Microservices%20.png "GitOps Architecture")
+![Architecture Diagram](/docs/architecture/10-Microservices.png "GitOps Architecture")
 
