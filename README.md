@@ -9,6 +9,7 @@ This repository contains my solutions for the DevOps Engineer technical assessme
 3. [Behavioral Challenges](monitoring/behavioural.md)
 4. [Monitoring and Troubleshooting](monitoring/troubleshooting.md)
 5. [System Design](docs/architecture/gitops-cicd.md)
+6. [ Microservice Deployment with GitOps](docs/solutions/technical-questions.md)
 
 ## Repository Structure
 ```
