@@ -4,10 +4,11 @@
 This repository contains my solutions for the DevOps Engineer technical assessment. Each section is organized in separate directories with detailed documentation and implementation.
 
 ## Table of Contents
-1. [General Technical Knowledge](#general-technical-knowledge)
-2. [Coding Challenges](#coding-challenges)
-3. [Monitoring and Troubleshooting](#monitoring-and-troubleshooting)
-4. [System Design](#system-design)
+1. [General Technical Knowledge](docs/solutions/technical-questions.md)
+2. [Coding Challenges](src)
+3. [Behavioral Challenges](monitoring/behavioural.md)
+4. [Monitoring and Troubleshooting](monitoring/troubleshooting.md)
+5. [System Design](docs/architecture/gitops-cicd.md)
 
 ## Repository Structure
 ```
@@ -45,8 +46,8 @@ This repository contains my solutions for the DevOps Engineer technical assessme
 ### Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/devops-assessment.git
-cd devops-assessment
+git clone https://github.com/Francismensah/DevOps-Engineer-Technical-Assessment.git
+cd DevOps-Engineer-Technical-Assessment
 ```
 
 2. Set up environment variables:
@@ -103,19 +104,7 @@ docker-compose build
 
 ### 4. System Design
 - GitOps CI/CD architecture: [docs/architecture/gitops-cicd.md](docs/architecture/gitops-cicd.md)
-- Kubernetes manifests: [kubernetes/manifests/](kubernetes/manifests/)
 
-## Testing
-Each component includes unit tests and integration tests. To run the test suite:
-
-```bash
-# Run all tests
-make test
-
-# Run specific component tests
-make test-exporter
-make test-monitor
-```
 
 ## Security Considerations
 - All secrets are managed through environment variables
